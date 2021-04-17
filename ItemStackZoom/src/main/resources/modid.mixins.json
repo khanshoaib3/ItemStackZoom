@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.shoaibkhan.itemstackzoom.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "ToolTipMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
