@@ -34,7 +34,7 @@ public class ToolTipMixin {
 	    if(client.options.fullscreen)
 	    	client.inGameHud.fill(matrices, xPos-80, yPos-75, xPos-10, yPos-5, -267386864);
 	    else
-	    	client.inGameHud.fill(matrices, xPos-70, yPos-80, xPos-5, yPos-10, -267386864);
+	    	client.inGameHud.fill(matrices, xPos-80, yPos-90, xPos-10, yPos-15, -267386864);
 		RenderSystem.translatef(0.0F, 0.0F, 32.0F);
 		RenderSystem.scalef(3.8f, 3.8f, 1f);
 	    if(client.options.fullscreen)
