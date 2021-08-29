@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "iszbyshoaibkhan",
   "version": "${version}",
-
   "name": "Item Stack Zoom",
   "description": "",
   "authors": [
@@ -12,10 +11,8 @@
     "homepage": "",
     "sources": ""
   },
-
   "license": "MIT",
   "icon": "",
-
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -25,11 +22,10 @@
   "mixins": [
     "modid.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
-    "minecraft": "1.16.x"
+    "minecraft": "1.17.x"
   },
   "suggests": {
     "another-mod": "*"
